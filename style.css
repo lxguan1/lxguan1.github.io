@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, section, footer {
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive image for mobile devices */
+@media screen and (max-width: 600px) {
+    header, section, footer {
+        margin: 10px;
+        padding: 10px;
+    }
+}
